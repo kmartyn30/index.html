@@ -1,0 +1,15 @@
+# Query: <!DOCTYPE html>\n<html lang="en">\n<head>\n   <meta charset="UTF-8">\n   <meta name="viewport" content="width=device-width, initial-scale=1.0">\n   <meta http-equiv="X-UA-Compatible" content="ie=edge">\n   <title>Basic Charts</title>\n   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>\n</head>\n<body>\n   <div id="plotArea"></div>\n   <script src="plots.js"></script>\n</body>\n</html>
+
+
+No Results
+Plotly.newPlot("plotArea", [{x: [1,2,3], y:[10,20,30]}]);
+
+var trace = {
+    x: ["burrito", "pizza", "chicken"],
+    y: [10, 18, 5],
+    type: "bar"
+ };
+ Plotly.newPlot("plotArea", [trace]);
+ Plotly.newPlot("plotArea", [{x:[1,2,3], y:[10,20,30]}]);
+
+ 
